@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         论坛自动刷帖（全站巡航+后台保活版）
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/lza6/NL-Community-Automatic-Posting
 // @version      1.1.0
 // @description  新增后台保活功能，确保浏览器在后台时脚本也能正常运行 | 新增跨区自动导航 | 新增重置配置按钮
 // @author       levi & ChatGPT & AI-Refactor
@@ -8,11 +8,11 @@
 // @match        https://meta.discourse.org/*
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @license      MIT
+// @license      Apache-2.0
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nodeloc.com
 // @noframes
-// @downloadURL https://update.greasyfork.org/scripts/553171/linuxdo%E4%BF%9D%E6%B4%BB%E4%BC%98%E5%8C%96%E7%89%88%EF%BC%88%E9%AB%98%E6%80%A7%E8%83%BD%E7%89%88%EF%BC%89.user.js
-// @updateURL https://update.greasyfork.org/scripts/553171/linuxdo%E4%BF%9D%E6%B4%BB%E4%BC%98%E5%8C%96%E7%89%88%EF%BC%88%E9%AB%98%E6%80%A7%E8%83%BD%E7%89%88%EF%BC%89.meta.js
+// @downloadURL  https://raw.githubusercontent.com/lza6/NL-Community-Automatic-Posting/main/NL.user.js
+// @updateURL    https://raw.githubusercontent.com/lza6/NL-Community-Automatic-Posting/main/NL.user.js
 // ==/UserScript==
 
 (() => {
